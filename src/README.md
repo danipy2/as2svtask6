@@ -1,11 +1,11 @@
 # Data Analyst Job Listing App
 
-A responsive job listing application built with React, TypeScript, and Tailwind CSS that displays a Job Opportinites  with all relevant details.
+A responsive job listing application built with React, TypeScript, and Tailwind CSS that displays a Job Opportinites with all relevant details.
 
 ## 🚀 Features
 
 - **Job Details**: Displays comprehensive job description and responsibilities
-- **Requirements**: Shows technical skills needed 
+- **Requirements**: Shows technical skills needed
 - **Timeline**: Important dates including posting date, deadline, and contract duration
 - **Responsive Design**: Mobile-friendly layout using Tailwind CSS utilities
 - **Type Safety**: Built with TypeScript for robust development
@@ -13,6 +13,7 @@ A responsive job listing application built with React, TypeScript, and Tailwind 
 ## 📸 Screenshots
 
 ### 🔍 FullPage View
+
 ![Job view1](/src/assets/pic1.png)
 ![Job view2](/src/assets/pic2.png)
 ![Job view3](/src/assets/hover.png)
@@ -20,12 +21,9 @@ A responsive job listing application built with React, TypeScript, and Tailwind 
 ![Job Description](/src/assets/desc1.png)
 ![Job Description](/src/assets/page4.png)
 
-
-
-
 ## 🛠️ How to Run Locally
 
-Ensure you have Node.js  and npm installed.
+Ensure you have Node.js and npm installed.
 
 ```bash
 # Clone the repository
@@ -43,10 +41,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🏗️ Technologies Used
 
-- React 
-- TypeScript 
+- React
+- TypeScript
 - Vite (for fast development)
 - Tailwind CSS (for styling)
-
-
-
