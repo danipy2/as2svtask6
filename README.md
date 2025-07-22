@@ -1,4 +1,4 @@
-# Data Analyst Job Listing App
+# Job Opportinties Listing App
 
 A responsive job listing application built with React, TypeScript, and Tailwind CSS that displays a Job Opportinites with all relevant details.
 
