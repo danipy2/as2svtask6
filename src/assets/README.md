@@ -13,12 +13,12 @@ A responsive job listing application built with React, TypeScript, and Tailwind 
 ## 📸 Screenshots
 
 ### 🔍 FullPage View
-![Job view1](/pic1.png)
-![Job view2](/pic2.png)
-![Job view3](/hover.png)
-![Job view4](/page2.png)
-![Job Description](/desc1.png)
-![Job Description](/page4.png)
+![Job view1](/src/assets/pic1.png)
+![Job view2](/src/assets/pic2.png)
+![Job view3](/src/assets/hover.png)
+![Job view4](/src/assets/page2.png)
+![Job Description](/src/assets/desc1.png)
+![Job Description](/src/assets/page4.png)
 
 
 
