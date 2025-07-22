@@ -1,69 +1,52 @@
-# React + TypeScript + Vite
+# Data Analyst Job Listing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive job listing application built with React, TypeScript, and Tailwind CSS that displays a Job Opportinites  with all relevant details.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Job Details**: Displays comprehensive job description and responsibilities
+- **Requirements**: Shows technical skills needed 
+- **Timeline**: Important dates including posting date, deadline, and contract duration
+- **Responsive Design**: Mobile-friendly layout using Tailwind CSS utilities
+- **Type Safety**: Built with TypeScript for robust development
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🔍 FullPage View
+![Job view1](/pic1.png)
+![Job view2](/pic2.png)
+![Job view3](/hover.png)
+![Job view4](/page2.png)
+![Job Description](/desc1.png)
+![Job Description](/page4.png)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+
+## 🛠️ How to Run Locally
+
+Ensure you have Node.js  and npm installed.
+
+```bash
+# Clone the repository
+git clone https://github.com/danipy2/as2svtask6.git
+cd Task6
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🏗️ Technologies Used
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- React 
+- TypeScript 
+- Vite (for fast development)
+- Tailwind CSS (for styling)
+
+
+
